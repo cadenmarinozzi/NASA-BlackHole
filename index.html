@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+        
+                background: black;
+            }
+
+            canvas {
+                z-index: 0;
+            }
+
+            img {
+                z-index: 1;
+
+                position: absolute;
+                
+                left: 0;
+                top: 0;
+            }
+        </style>
+        <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three/build/three.module.js",
+                "vertexShader": "./vertexShader.js",
+                "fragmentShader": "./fragmentShader.js"
+            }
+        }
+        </script>
+    </head>
+    <body>
+        <script type='module' src="./script.js"></script>
+    </body>
+</html>
