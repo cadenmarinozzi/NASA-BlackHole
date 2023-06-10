@@ -2,7 +2,7 @@
 
 My attempt at recreating the black hole image from the NASA press release.
 
-<img src='./tes.jpg'></img>
+<img src='./assets/test.jpg'></img>
 
 ## Usage
 
